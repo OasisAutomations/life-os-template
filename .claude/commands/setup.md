@@ -31,6 +31,9 @@ The user is setting up (or resuming setup of) their Life OS.
 - Room renames/deletes (Stage 2): confirm the final list before moving or deleting any
   folder, then update the Rooms table in `CLAUDE.md`. Never delete a folder that
   contains user-written files without asking again.
+- Stage 6: check whether calendar tools are available. If they are, offer to create the weekly
+  review as a recurring event (confirm the details first). If not, explain how to connect
+  once and move on — never block setup on it.
 - Stage 7: follow `.claude/commands/board-setup.md`, skipping questions already answered.
 
 ## Rules

@@ -53,6 +53,19 @@ Needs Node 18+ for the search index (`brain/brain.js`); everything else is plain
 | `_templates/room/` | Copy this to add a new room. |
 | `brain/brain.js` | Local search index — ranks files without reading them. |
 
+## Optional: connect your calendar
+
+Nothing requires it, but connecting **Google Calendar** makes the daily plan better:
+Claude sees what's already on today's calendar and plans around it, and it can put your
+weekly review on the calendar as a recurring event.
+
+- **Claude desktop app / claude.ai:** Settings → Connectors → Google Calendar.
+- **Claude Code in a terminal:** connectors from your claude.ai account show up
+  automatically; check with `/mcp`.
+
+Claude reads freely but always asks before creating or changing an event. `/setup`
+offers this in Stage 6.
+
 ## How the pieces connect
 
 ```

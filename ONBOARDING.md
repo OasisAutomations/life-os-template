@@ -115,6 +115,10 @@ which goal it serves, and how Claude should behave there.
     write `today.md` whenever you open a session?
 20. Anything the weekly review should always check that isn't there yet? Claude tailors
     the review sections to the rooms you kept.
+21. **Optional — calendar.** Do you use Google Calendar? If you connect it (Claude app →
+    Settings → Connectors → Google Calendar), Claude reads today's events when planning
+    your day and can add the weekly review as a recurring event — it always asks before
+    creating or changing anything. "Not now" is fine; everything works without it.
 
 ## Stage 7 — Board of Advisors
 **Writes:** `01-identity/profile.md` (rest of it), `01-identity/board-of-advisors.md`
@@ -122,12 +126,12 @@ which goal it serves, and how Claude should behave there.
 Runs the `/board-setup` flow from `01-identity/board-onboarding.md`. Stages 1–5 already
 answered most of the questionnaire, so only these remain:
 
-21. What decision do you keep circling without making?
-22. What must any advice respect? (cash runway, health, kids, schedule, things you won't
+22. What decision do you keep circling without making?
+23. What must any advice respect? (cash runway, health, kids, schedule, things you won't
     do) — prefilled from Stage 5, confirm or add
-23. How do you want to be talked to? blunt · warm · data-first · big-picture
-24. Who do you already read, watch, or learn from?
-25. Which 2–5 seats do you want at the table?
+24. How do you want to be talked to? blunt · warm · data-first · big-picture
+25. Who do you already read, watch, or learn from?
+26. Which 2–5 seats do you want at the table?
 
 Claude writes the Shared briefing, recommends a board from the catalog (with at least
 one counterweight to your challenges), you swap anyone, and it writes the roster.

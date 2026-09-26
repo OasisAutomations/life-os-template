@@ -4,6 +4,9 @@
 A life OS that isn't reviewed is just a folder. The review *is* the operating system.
 
 ## How I (Claude) behave here
+- **Calendar (optional):** if a calendar connector is available, read today's events before
+  planning and fit the 1–3 things around them. Never create, move, or delete an event
+  without asking. If no calendar is connected, just ask what's fixed today.
 - **Daily ("what should I do today?"):** read `north-star/STATUS.md` and `GOALS.md`, plus
   the current-focus section of the relevant rooms. Write the 1–3 things that actually move
   a goal this week into `today.md` (overwrite it). Include one action for

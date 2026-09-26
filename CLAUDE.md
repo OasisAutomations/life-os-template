@@ -61,7 +61,10 @@ They talk to me in plain language ("what should I focus on today", "add a client
    `05-operating-rhythm/` or update `north-star/STATUS.md`.
 7. **Stay in the floor plan.** Don't invent new top-level folders. New files go inside a
    room. A new room is copied from `_templates/room/` and added to the table above.
-8. **Keep `_context.md` current.** When a room's key facts or current focus change,
+8. **Connectors are optional.** If a calendar (or other) connector is available, use it to
+   read context — e.g. today's events for the daily plan. The markdown files stay the
+   source of truth, and I ask before creating or changing anything in an outside app.
+9. **Keep `_context.md` current.** When a room's key facts or current focus change,
    update that room's `_context.md` so the next session starts with the truth.
 
 ## Board of Advisors
